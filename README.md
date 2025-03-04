@@ -31,3 +31,8 @@ InF := TFileStream.Create('input.lep', fmOpenRead);
 OutF := TFileStream.Create('output.jpg', fmCreate);
 DecodeLepton(InF, OutF);
 ```
+
+## This project uses lepton.dll from "Lepton JPEG Compression in Rust"
+
+"Lepton" is a discontinued project by Dropbox. "Lepton JPEG Compression in Rust" is a continuation by Microsoft.
+The DLL is licensed under Apache 2.0 license.
